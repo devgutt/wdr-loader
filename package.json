@@ -1,0 +1,13 @@
+{
+  "name": "wdr-loader",
+  "version": "1.0.0",
+  "description": "WDR Loader",
+  "author": "Gustavo Pires",
+  "repository": "https://github.com/webdatarender/wdr-loader.git",
+  "bugs": "https://github.com/webdatarender/wdr-loader/issues",
+  "homepage": "https://webdatarender.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
