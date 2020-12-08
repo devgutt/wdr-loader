@@ -6,32 +6,16 @@ wdrLoader(data=> {
 
 function render(data) {
 
-    document.title = 'WDR-loader example';
-
-    const html = document.getElementsByTagName('html')[0];
-    html.innerHTML = `
-    <html>
-    <head>
+    document.head.innerHTML = `
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>${data.title}</title>
-        <style>
-        .main {
-            background-color: aliceblue;
-            text-align: center;
-            padding: 16px;
-        }
-        </style>
-    </head>
-    <body>
-        <section class="main">
-            <div>
-                <h1>${data.title}</h1>
-                <p>${data.description}<p>
-            </div>
-        </section>
-    </body>
-    </html>
     `;
 
+    document.body.innerHTML = `
+        <section>
+            <h1>${data.title}</h1>
+            <p>${data.description}<p>
+        </section>`;
 }
+
