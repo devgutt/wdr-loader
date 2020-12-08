@@ -2,7 +2,7 @@
 
 function loader(render) {
     document.addEventListener('DOMContentLoaded', () => {
-        const data = JSON.parse(document.body.innerText.replace(/<script.*<\/script>/gi, ''));
+        const data = JSON.parse(document.body.innerText);
         document.body.innerText = "";
         document.documentElement.removeAttribute('hidden');
         if (render && typeof render == 'function') {
