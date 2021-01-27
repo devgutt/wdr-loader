@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "WDR Loader",
   "author": "Gustavo Pires",
+  "main": "./index.js",
   "repository": "https://github.com/webdatarender/wdr-loader.git",
   "bugs": "https://github.com/webdatarender/wdr-loader/issues",
   "homepage": "https://webdatarender.com",
